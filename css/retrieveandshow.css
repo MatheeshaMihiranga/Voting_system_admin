@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+nav {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+  list-style-type: none;
+}
+
+nav ul li:hover {
+  background: #000000;
+}
+
+nav ul li:hover a {
+  color: #fff;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+
+nav ul ul {
+  background: #000000;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+
+nav ul ul li a {
+  padding: 15px 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+nav ul ul li a:hover {
+  background: #000000;
+}
+nav ul li:last-child {
+  margin-left: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head div {
+  flex-basis: 48%; /* Adjust the percentage as needed */
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
